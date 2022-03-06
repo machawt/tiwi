@@ -1,4 +1,4 @@
-function startGame(){
+function text(){document.text.innerHTML='pika';}
 gameLoop();
 }
 
