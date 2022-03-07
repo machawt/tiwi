@@ -1,4 +1,4 @@
-function check{alert();document.getElementById("echo").innerHTML = "pika";}
+function check(){alert();document.getElementById("echo").innerHTML = "pika";}
 gameLoop();
 }
 
