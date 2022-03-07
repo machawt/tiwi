@@ -1,3 +1,3 @@
-function check(){window.alert("5");document.getElementById("echo").innerHTML = "pika";}
+function check(){document.getElementById("echo").innerHTML = "pika";}
 
 
