@@ -1,7 +1,7 @@
 
 
-function cma(){var etext=document.getElementById("echo");
-etext.innerHTML = etext.innerHTML+"ma";}
+function cma(syl){var etext=document.getElementById("echo");
+etext.innerHTML = etext.innerHTML+syl;}
 function cnga(){var etext=document.getElementById("echo");
 etext.innerHTML = etext.innerHTML+"nga";}
 function cti(){var etext=document.getElementById("echo");
