@@ -1,10 +1,12 @@
 body, br{background-color:#003388;background-size:cover;}
+.b {width:10%;margin:5px;font-size:1.7em;background-color:#666600; color:#ffffff}
 img {
   width: 17%;
   height: 40%;
 margin:0px;
 float:left;}
 .text{width:40%;margin:5px;font-size:1.5em;float:left;}
+.ech{color:#ffffff;font-size:2em;}
 .question select label {width:20%;margin:5px;font-size:1.5em;background-color:#003388; color:#ffffff}
 a, #12,a:visited{colour:#ffffff;font-size:2}
 .page{border:1px solid #000000; background-color:#003388; width:98%;color:#ffffff;
@@ -12,9 +14,3 @@ a, #12,a:visited{colour:#ffffff;font-size:2}
 padding:10px;
 margin:10px;
 float:left;}
-.thief{
-  background-color: #ff0000;
-background:url('sassa.jpg');
-background-size:cover;}
-.hidden{display:none}
-.visible{display:block;}
