@@ -19,7 +19,7 @@ etext.innerHTML = etext.innerHTML+"li";}
 function csp(){var etext=document.getElementById("echo");
 etext.innerHTML = etext.innerHTML+" ";}
 function next() {var test=document.getElementById("echo");re= document.getElementById("read");
-if(test.innerText===re.innerText){window.location.href = "p1.html";}}
+if(test.innerText===re.innerText){window.location.href = "p2.html";}}
 
 
 
