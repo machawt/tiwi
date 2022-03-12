@@ -1,4 +1,4 @@
-
+var syl="no";
 
 function cma(syl){var etext=document.getElementById("echo");
 etext.innerHTML = etext.innerHTML+syl;}
