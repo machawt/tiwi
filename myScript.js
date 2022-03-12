@@ -1,6 +1,6 @@
 var syl="no";
 
-function cma(syl){var etext=document.getElementById("echo");
+function cma(syl){window.alert(syl);var etext=document.getElementById("echo");
 etext.innerHTML = etext.innerHTML+syl;}
 function cnga(){var etext=document.getElementById("echo");
 etext.innerHTML = etext.innerHTML+"nga";}
