@@ -5,7 +5,7 @@ let txt=["Pika kalikali kapi makatinga.","Kamunga kalikali jiyima kapi makatinga
 ,"Maka jiyimi pulangawaka? yimi Palikila.","Ninkiyi, Mikirrami papi yimi kapi makatinga.",
          "Maka jiyimi pulangawaka? yimi Mikirrami.","Arrimi kapi yawurlama, yimi Palikila.",
          "Ninkiyi, Mikirrami kali yimi kapi yawurlama."]
-let i1=["pika.jpg","pika.jpg",,"makatinga.jpg","pulangumwaka.jpg","pulangumwaka.jpg","yawurlama.jpg","yawurlama.jpg"
+let i1=["pika.jpg","pika.jpg",,"makatinga.jpg","pulangumwaka.jpg","pulangumwaka.jpg","yawurlama.jpg","yawurlama.jpg",
        "palikila.jpg","palikila.jpg","miki.jpg","miki.jpg",
         "palikila.jpg","yawurlama.jpg"]
 let i2=["makatinga.jpg","","","","","","","","","","",""]
