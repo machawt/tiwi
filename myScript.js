@@ -1,20 +1,13 @@
-var syl="no";cnt=-1
-let txt=["Pika kalikali kapi makatinga.","Kamunga kalikali jiyima kapi makatinga? Marri Pika.","Pika maka kalikali jiyima? Kapi makatinga.",
-         "Pulangumwaka papi jiyimi kapi makatinga.","Ninkiyi, pika kalikali jiyimi kapi yawurlama.",
-         "Pulangumwaka kalikali jiyimi kapi yawurlama.","Ninkiyi, Palikila papi yimi kapi makatinga."
-,"Maka jiyimi pulangawaka? yimi Palikila.","Ninkiyi, Mikirrami papi yimi kapi makatinga.",
-         "Maka jiyimi pulangawaka? yimi Mikirrami.","Arrimi kapi yawurlama, yimi Palikila.",
-         "Ninkiyi, Mikirrami kali yimi kapi yawurlama."]
-let i1=["pika.jpg","pika.jpg",,"makatinga.jpg","pulangumwaka.jpg","pulangumwaka.jpg","yawurlama.jpg","yawurlama.jpg",
-       "palikila.jpg","palikila.jpg","miki.jpg","miki.jpg",
-        "palikila.jpg","yawurlama.jpg"]
-let i2=["makatinga.jpg","","","","","","","","","","",""]
-function cma(syl) {var etext=document.getElementById("echo");
-etext.innerHTML = etext.innerHTML+syl;}
-function clr()  {var etext=document.getElementById("echo");
-etext.innerHTML = "";}
-//function hd() {var re= document.getElementById("read");if(re.hidden===True){re.hidden=False;};
-//else{re.hidden=True;}}
+let syl="no";cnt=-1
+let etext="document.getElementById('echo')"
+let  re= "document.getElementById('read')"
+let txt=["Pika kalikali kapi makatinga.","Pulangumwaka papi jiyimi kapi makatinga.","Ninkiyi, pika kalikali jiyimi kapi yawurlama."]
+let i1=["pika.jpg","pulangumwaka.jpg","pulangumwaka.jpg","yawurlama.jpg"]
+let i2=["makatinga.jpg","",""]
+function cma(syl) {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+syl;}
+function clr()  {let etext=document.getElementById('echo');let sld=etext.innerHTML;etext.innerHTML=sld.slice(0,-1);}
+function hd() {if (re.style.visibility==="visible"){re.style.visibility="hidden";}
+else{re.style.visibility="visible";}}
 
 
 function next1() {var test=document.getElementById("echo");re= document.getElementById("read");if(test.innerText===re.innerText){cnt=cnt+1;
