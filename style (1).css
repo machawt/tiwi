@@ -1,0 +1,114 @@
+@font-face {
+    font-family: sassoon;
+    src: url(/css/sassoon/SassoonPrimaryStd.otf);
+    src: local('sassoon'), local('sassoon'), url(/css/sassoon/SassoonPrimaryStd.otf) format('opentype');
+}
+
+div, textarea{
+    font-family: sassoon, Arial, Helvetica, sans-serif;
+}
+
+        .kb-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%
+        }
+
+        .kb-shell{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+                "kb-top"
+                "kb-middle"
+                "kb-bottom"
+                "kb-space"; 
+            grid-gap: 5px;
+            width: 490px;
+            border: solid black 2px;
+            background: #193549;
+
+        }
+        .kb-shel, div{
+            font-size: 2rem;
+        }
+        .kb-top{
+            grid-area: kb-top;
+            display: flex;
+            justify-content: center;
+        }
+
+        .kb-middle{
+            grid-area: kb-middle;
+            display: flex;
+            justify-content: center;
+        }
+
+        .kb-bottom{
+            grid-area: kb-bottom;
+            display: flex;
+            justify-content: center;
+        }
+
+        .kb-space{
+            grid-area: kb-space;
+            display: flex;
+            justify-content: center;
+            height: 90%;
+        }
+
+        .kb-key{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 100%;
+            border: solid black 1px;
+            background: #414344;
+            color:white;
+            border-radius: 6px;
+            margin: 1px;
+        }
+        .kb-key-space{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            width: 160px;
+            height: 90%;
+            margin-right: 2px;
+            margin-left: 4px;
+            border: solid orange 1px;
+        }
+        .kb-key-num{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 82px;
+            height: 90%;
+            border-radius: 6px;
+            color:white;
+            border: solid orange 1px;
+        }
+        #boxy{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            margin: 20px;
+        }
+        .lower, .upper, .arrow {
+            font-size: 1.5rem;
+        }
+        .arrow {
+            font-size: 1.5rem;
+            height: 90%;
+            border: solid orange 1px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        .kb-textarea{
+            font-size: 2rem;
+            border: solid orange 1px;
+        }
