@@ -27,7 +27,7 @@ function next1() {var test=document.getElementById("echo");re= document.getEleme
 re.innerText=txt[cnt];
 document.getElementById("im1").src=i1[cnt];
 document.getElementById("im2").src=i2[cnt]}
-keys()}
+keys();}
 function back1() {var re= document.getElementById("read");cnt=cnt-1;
 re.innerText=txt[cnt];
 document.getElementById("im1").src=i1[cnt];document.getElementById("im2").src=i2[cnt]
