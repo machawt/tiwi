@@ -4,6 +4,17 @@ let  re= "document.getElementById('read')"
 let txt=["Pika kalikali kapi makatinga.","Pulangumwaka papi jiyimi kapi makatinga.","Ninkiyi, pika kalikali jiyimi kapi yawurlama."]
 let i1=["pika.jpg","pulangumwaka.jpg","pulangumwaka.jpg","yawurlama.jpg"]
 let i2=["makatinga.jpg","",""]
+let k1=["ka","ma","nga"]
+
+
+
+function keys (){
+line1=document.getElementById("key1");
+let btn = document.createElement("button");
+btn.innerHTML = k1[loop1];
+btn.addEventListener("click", butclick (k1[loop1]));
+line1.appendChild(btn);
+}
 function cma(syl) {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+syl;}
 function clr()  {let etext=document.getElementById('echo');let sld=etext.innerHTML;etext.innerHTML=sld.slice(0,-1);}
 function hd() {if (re.style.visibility==="visible"){re.style.visibility="hidden";}
