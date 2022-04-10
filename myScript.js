@@ -16,7 +16,7 @@ for (let loop1= 0; loop1< k1.length; loop1++)
 { 
 let btn = document.createElement("button");
 btn.innerHTML = k1[loop1];
-//btn.addEventListener("click", cma(k1[loop1]));
+btn.addEventListener("click", cma(k1[loop1]));
 btn.classList.add("b");
 line1.appendChild(btn);
 }}
