@@ -9,18 +9,18 @@ let k2=["li","pi","Pi","ti"]
 let k3=[""];
 
 function keys(){
-function keys1(){
+//function keys1(){
 
 line1=document.getElementById("key1");
 for (let loop1= 0; loop1< k1.length; loop1++) 
 { 
 let btn = document.createElement("button");
 btn.innerHTML = k1[loop1];
-btn.addEventListener("click", cma(k1[loop1]));
+//btn.addEventListener("click", cma(k1[loop1]));
 btn.classList.add("b");
 line1.appendChild(btn);
 }}
-}
+//}
 /*
 
 function keys2(){
