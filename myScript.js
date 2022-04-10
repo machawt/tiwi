@@ -9,12 +9,15 @@ let k1=["ka","ma","nga"]
 
 
 function keys (){
+
+for (let loop1= 0; loop1< k1.length; loop1++) { 
+ 
 line1=document.getElementById("key1");
 let btn = document.createElement("button");
 btn.innerHTML = k1[loop1];
 btn.addEventListener("click", butclick (k1[loop1]));
 line1.appendChild(btn);
-}
+}}
 function cma(syl) {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+syl;}
 function clr()  {let etext=document.getElementById('echo');let sld=etext.innerHTML;etext.innerHTML=sld.slice(0,-1);}
 function hd() {if (re.style.visibility==="visible"){re.style.visibility="hidden";}
