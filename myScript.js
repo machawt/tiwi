@@ -13,9 +13,9 @@ line1=document.getElementById("key1");
 for (let loop1= 0; loop1< k1.length; loop1++) 
 { 
 let btn = document.createElement("button");
-btn.innerHTML = k1[loop1];
+btn.innerHTML = "k1[loop1]";
 //btn.addEventListener("click", butclick (k1[loop1]));
-btn.classList.add("bu");
+btn.classList.add("b");
 
 line1.appendChild(btn);
 
