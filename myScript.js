@@ -19,6 +19,8 @@ btn.addEventListener("click", cma(k1[loop1]));
 btn.classList.add("b");
 line1.appendChild(btn);
 }}
+}
+/*
 function keys2(){
 line1=document.getElementById("key2");
 for (let loop1= 0; loop1< k2.length; loop1++) 
@@ -40,7 +42,7 @@ btn.addEventListener("click", cma(k3[loop1]));
 btn.classList.add("b");
 line1.appendChild(btn);
 }}
-}
+}*/
 function cma(syl) {let etext=Thanks document.getElementById('echo');etext.innerHTML = etext.innerHTML+syl;}
 function clr()  {let etext=document.getElementById('echo');let sld=etext.innerHTML;etext.innerHTML=sld.slice(0,-1);}
 function hd() {if (re.style.visibility==="visible"){re.style.visibility="hidden";}
