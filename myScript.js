@@ -9,7 +9,7 @@ let k2=["li","pi","Pi","ti"]
 let k3=[""];
 
 function keys(){
-function keys1{
+function keys1(){
 
 line1=document.getElementById("key1");
 for (let loop1= 0; loop1< k1.length; loop1++) 
