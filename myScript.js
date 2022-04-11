@@ -17,7 +17,6 @@ for (let loop1= 0; loop1< k1.length; loop1++)
 let btn = document.createElement("button");
 btn.innerHTML = k1[loop1];
 btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k1[loop1];};
-//btn.addEventListener("click", cma("hi"));
 btn.classList.add("b");
 line1.appendChild(btn);
 }
@@ -28,7 +27,6 @@ for (let loop1= 0; loop1< k2.length; loop1++)
 let btn = document.createElement("button");
 btn.innerHTML = k2[loop1];
 btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k2[loop1];};
-//btn.addEventListener("click", cma("hi"));
 btn.classList.add("b");
 line1.appendChild(btn);
 }
