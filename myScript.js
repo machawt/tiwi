@@ -33,8 +33,6 @@ btn.classList.add("b");
 line1.appendChild(btn);
 }
 
-btn);
-}
 
 line1=document.getElementById("key3");
 for (let loop1= 0; loop1< k3.length; loop1++) 
