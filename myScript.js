@@ -57,7 +57,7 @@ re.innerText=txt[cnt];
 document.getElementById("im1").src=i1[cnt];document.getElementById("im2").src=i2[cnt]
 }
 function hde (){re= document.getElementById("read");if(re.style.visibility==='hidden'){re.style.visibility='visible';}
-else{re.style.visibility="hidden";};
+else{re.style.visibility="hidden";}
 function clr(){
 let str=document.getElementById("echo");
 del= str.innerText.slice(0, -1);
