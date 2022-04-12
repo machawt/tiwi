@@ -21,7 +21,7 @@ line1.appendChild(btn);
 }
 
 line1=document.getElementById("key2");
-line1.empty();
+line1.innerHTML="";
 for (let loop1= 0; loop1< k2[cnt].length; loop1++) 
 { 
 let btn = document.createElement("button");
