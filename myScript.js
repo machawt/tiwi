@@ -52,6 +52,7 @@ keys();
 }
 function back1() {var re= document.getElementById("read");cnt=cnt-1;
 if (cnt<0){cnt=0;}
+keys();
 re.innerText=txt[cnt];
 document.getElementById("im1").src=i1[cnt];document.getElementById("im2").src=i2[cnt]
 }
