@@ -10,32 +10,32 @@ let k3=[["_",".",","], ["ngu","Pu","_",".",","]]
 
 function keys(){
 line1=document.getElementById("key1");
-for (let loop1= 0; loop1< k1.length; loop1++) 
+for (let loop1= 0; loop1< k1[cnt].length; loop1++) 
 { 
 let btn = document.createElement("button");
-btn.innerHTML = k1[loop1];
-btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k1[loop1];};
+btn.innerHTML = k1[cnt][loop1];
+btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k1[cnt][loop1];};
 btn.classList.add("b");
 line1.appendChild(btn);
 }
 
 line1=document.getElementById("key2");
-for (let loop1= 0; loop1< k2.length; loop1++) 
+for (let loop1= 0; loop1< k2[cnt].length; loop1++) 
 { 
 let btn = document.createElement("button");
-btn.innerHTML = k2[loop1];
-btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k2[loop1];};
+btn.innerHTML = k2[cnt][loop1];
+btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k2[cnt][loop1];};
 btn.classList.add("b");
 line1.appendChild(btn);
 }
 
 
 line1=document.getElementById("key3");
-for (let loop1= 0; loop1< k3.length; loop1++) 
+for (let loop1= 0; loop1< k3[cnt].length; loop1++) 
 { 
 let btn = document.createElement("button");
-btn.innerHTML = k3[loop1];
-btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k3[loop1];};
+btn.innerHTML = k3[cnt][loop1];
+btn.onclick = function write() {let etext=document.getElementById('echo');etext.innerHTML = etext.innerHTML+ k3[cnt][loop1];};
 btn.classList.add("b");
 line1.appendChild(btn);
 }
