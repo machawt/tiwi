@@ -10,7 +10,7 @@ let k3=[["_",".",","], ["ngu","Pu","_",".",","]]
 
 function keys(){
 line1=document.getElementById("key1");
-//line1.empty();
+line1.innerHTML="";
 for (let loop1= 0; loop1< k1[cnt].length; loop1++) 
 { 
 let btn = document.createElement("button");
@@ -33,7 +33,7 @@ line1.appendChild(btn);
 
 
 line1=document.getElementById("key3");
-//line1.empty();
+line1.innerHTML="";
 for (let loop1= 0; loop1< k3[cnt].length; loop1++) 
 { 
 let btn = document.createElement("button");
