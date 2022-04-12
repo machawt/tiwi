@@ -4,9 +4,9 @@ let  re= "document.getElementById('read')"
 let txt=["Pika_kalikali_kapi_makatinga.","Pulangumwaka_papi_jiyimi_kapi_makatinga.","Ninkiyi,_pika_kalikali_jiyimi_kapi_yawurlama."]
 let i1=["pika.jpg","pulangumwaka.jpg","pulangumwaka.jpg","yawurlama.jpg"]
 let i2=["makatinga.jpg","",""]
-let k1=["ka","ma","nga"]
-let k2=["li","pi","Pi","ti"]
-let k3=["_",".",","];
+let k1=[["ka","ma","nga"],["ka","la","ma","nga","pa","wa"]]
+let k2=[["li","pi","Pi","ti"], ["ji","mi","pi","ti","yi"]]
+let k3=[["_",".",","], ["ngu","Pu","_",".",","]]
 
 function keys(){
 line1=document.getElementById("key1");
