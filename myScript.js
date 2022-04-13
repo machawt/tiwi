@@ -45,7 +45,7 @@ line1.appendChild(btn);
 }
 function next1() {var test=document.getElementById("echo");re= document.getElementById("read");if(test.innerText===re.innerText){cnt=cnt+1;
 re.innerText=txt[cnt];
-test.innerText="";
+//test.innerText="";
 document.getElementById("im1").src=i1[cnt];
 document.getElementById("im2").src=i2[cnt]}
 keys();
