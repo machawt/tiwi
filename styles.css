@@ -1,17 +1,13 @@
 body, br{background-color:#003388;background-size:cover;}
-.b {width:14%;margin:5px;font-size:1.4em;background-color:#666600; color:#ffffff}
+.b {width:20%;margin:5px;font-size:2em;background-color:#666600; color:#ffffff}
+.bb {width 12%;margin:5px;font-size:1.5em;background-color:#605694; color:#ffffff}
+
 h1{color:#ffffff}
-img {
-  width: 17%;
-  height: 40%;
-margin:0px;
-float:left;}
-.text{width:40%;margin:5px;font-size:1.5em;float:left;}
-.ech{color:#ffffff;font-size:2em;}
-.question select label {width:20%;margin:5px;font-size:1.5em;background-color:#003388; color:#ffffff}
-a, #12,a:visited{colour:#ffffff;font-size:2}
+.text{width:40%;margin:5px;font-size:2em;}
+.ech{color:#ffffff;font-size:3em;}
+
 .page{border:1px solid #000000; background-color:#003388; width:98%;color:#ffffff;
-  height: 95%;
+height: 95%;
 padding:10px;
 margin:10px;
 float:left;}
