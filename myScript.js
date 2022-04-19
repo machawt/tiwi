@@ -37,7 +37,7 @@ test.innerText="";
 engdiv=document.getElementById("english");
 engdiv.innerText=engs[cnt];}
 keys();
-}}
+}
 function fd(){ 
    // test=document.getElementById("echo");
     //re= document.getElementById("read");
