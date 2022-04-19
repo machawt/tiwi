@@ -7,6 +7,22 @@ let engdiv=document.getElementById("english");
 let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.","Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*."];
 let engs=["horse runs to stream","dog  arrived she did at stream","then horse run she did to bush "]
 
+function next1(){ 
+var test=document.getElementById("echo");
+re= document.getElementById("read");
+if(test.innerText===re.innerText){cnt=cnt+1;
+    if (cnt>txt.length){cnt=cnt-1;}update();}
+                                  
+function update(){                                  
+clean=txt[cnt].replaceAll('*','');
+re.innerText=clean;
+test.innerText="";
+engdiv=document.getElementById("english");
+engdiv.innerText=engs[cnt];}
+keys();
+}
+
+
 function keys(){
 line1=document.getElementById("key1");
 line1.innerHTML="";
@@ -24,20 +40,7 @@ btn.classList.add("b");
 line1.appendChild(btn);
 }};
 
-function next1(){ 
-var test=document.getElementById("echo");
-re= document.getElementById("read");
-if(test.innerText===re.innerText){cnt=cnt+1;
-    if (cnt>txt.length){cnt=cnt-1;update();}}
-                                  
-function update(){                                  
-clean=txt[cnt].replaceAll('*','');
-re.innerText=clean;
-test.innerText="";
-engdiv=document.getElementById("english");
-engdiv.innerText=engs[cnt];}
-keys();
-}
+
 function fd(){ 
    // test=document.getElementById("echo");
     //re= document.getElementById("read");
