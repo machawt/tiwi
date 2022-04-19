@@ -52,15 +52,16 @@ update();
     }
     
 function bk1(){ 
-    test=document.getElementById("echo");
-    re= document.getElementById("read");
+   // test=document.getElementById("echo");
+   // re= document.getElementById("read");
     cnt=cnt-1;if (cnt<0){cnt=0};
-    clean=txt[cnt].replaceAll('*','');
-    re.innerText=clean;
-    test.innerText="";
-    engdiv=document.getElementById("english")
-    engdiv.innerText=engs[cnt];
-    keys();
+   // clean=txt[cnt].replaceAll('*','');
+    //re.innerText=clean;
+   // test.innerText="";
+    //engdiv=document.getElementById("english")
+    //engdiv.innerText=engs[cnt];
+   // keys();
+    update();
     }
 
 function hd() {if (re.style.visibility==="visible"){re.style.visibility="hidden";}
