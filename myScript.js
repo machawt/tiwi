@@ -25,10 +25,12 @@ line1.appendChild(btn);
 }};
 
 function next1(){ 
-{var test=document.getElementById("echo");
+var test=document.getElementById("echo");
 re= document.getElementById("read");
 if(test.innerText===re.innerText){cnt=cnt+1;
-    if (cnt>txt.length){cnt=cnt-1};
+    if (cnt>txt.length){cnt=cnt-1;update();}}
+                                  
+function update(){                                  
 clean=txt[cnt].replaceAll('*','');
 re.innerText=clean;
 test.innerText="";
@@ -37,16 +39,16 @@ engdiv.innerText=engs[cnt];}
 keys();
 }}
 function fd(){ 
-    test=document.getElementById("echo");
-    re= document.getElementById("read");
+   // test=document.getElementById("echo");
+    //re= document.getElementById("read");
     cnt=cnt+1;if (cnt>txt.length){cnt=cnt-1};
-    clean=txt[cnt].replaceAll('*','');
-    re.innerText=clean;
-    test.innerText="";
-    engdiv=document.getElementById("english")
-    engdiv.innerText=engs[cnt];
-
-    keys();
+    //clean=txt[cnt].replaceAll('*','');
+    //re.innerText=clean;
+    //test.innerText="";
+    //engdiv=document.getElementById("english")
+    //engdiv.innerText=engs[cnt];
+update();
+    //keys();
     }
     
 function bk1(){ 
