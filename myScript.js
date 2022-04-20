@@ -1,4 +1,4 @@
-let syl="no";cnt=-1;
+let cnt=-1;
 
 let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","Ti*rri*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ta*ka*.","Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.","Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*."];
 let engs=["horse runs to stream","snake ran she did on branch?","dog  arrived she did at stream","then horse run she did to bush "];
