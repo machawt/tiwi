@@ -10,9 +10,9 @@ let engs=["horse runs to stream","snake ran she did on branch?","dog  arrived sh
 function next1(){ 
 var test=document.getElementById("echo");
 re= document.getElementById("read");
-if(test.innerText===re.innerText){cnt=cnt+1;};
+if(test.innerText===re.innerText){cnt=cnt+1;
     if (cnt>txt.length){cnt=cnt-1;};
- update();}
+ update();}}
                                   
 function update(){                                  
 clean=txt[cnt].replaceAll('*','');
