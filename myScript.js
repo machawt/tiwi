@@ -11,7 +11,7 @@ function next1(){
 let test=document.getElementById("echo");
 re= document.getElementById("read");
 if(test.innerText===re.innerText){cnt=cnt+1;
-    if (cnt>txt.length){cnt=cnt-1;};
+    if (cnt>txt.length){cnt=cnt-1;}};
  update();}
                                   
 function update(){                                  
@@ -19,7 +19,7 @@ clean=txt[cnt].replaceAll('*','');
 re.innerText=clean;
 test.innerText="";
 engdiv=document.getElementById("english");
-engdiv.innerText=engs[cnt];}
+engdiv.innerText=engs[cnt];
 keys();
 }
 
