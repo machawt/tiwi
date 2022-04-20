@@ -8,8 +8,8 @@ let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","Ti*rri*ka*_*ka*li*ka*li
 let engs=["horse runs to stream","snake ran she did on branch?","dog  arrived she did at stream","then horse run she did to bush "];
 
 function next1(){
-let test=document.getElementById("echo");
-re= document.getElementById("read");
+//let test=document.getElementById("echo");
+//re= document.getElementById("read");
 if(test.innerText===re.innerText){cnt=cnt+1;
     if (cnt>txt.length){cnt=cnt-1;}};
  update();}
@@ -18,8 +18,8 @@ function update(){
 clean=txt[cnt].replaceAll('*','');
 re.innerText=clean;
 test.innerText="";
-engdiv=document.getElementById("english");
-engdiv.innerText=engs[cnt];
+//engdiv=document.getElementById("english");
+//engdiv.innerText=engs[cnt];
 keys();
 }
 
