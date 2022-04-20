@@ -4,15 +4,15 @@ let  re= document.getElementById('read');
 let test=document.getElementById("echo");
 let engdiv=document.getElementById("english");
 
-let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","*Ti*rri*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ta*ka*.","Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.","Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*."];
+let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","Ti*rri*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ta*ka*.","Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.","Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*."];
 let engs=["horse runs to stream","snake ran she did on branch?","dog  arrived she did at stream","then horse run she did to bush "];
 
-function next1(){ 
-var test=document.getElementById("echo");
+function next1(){
+let test=document.getElementById("echo");
 re= document.getElementById("read");
 if(test.innerText===re.innerText){cnt=cnt+1;
     if (cnt>txt.length){cnt=cnt-1;};
- update();}}
+ update();}
                                   
 function update(){                                  
 clean=txt[cnt].replaceAll('*','');
