@@ -13,8 +13,8 @@ if(test.innerText===re.innerText){cnt=cnt+1;
  update();}
                                   
 function update(){                                  
-clean=txt[cnt].replaceAll('*','');
-re.innerText=clean;
+let clean=txt[cnt].replaceAll('*','');
+let re.innerText=clean;
 let test=document.getElementById("echo");
 test.innerText="";
 engdiv=document.getElementById("english");
