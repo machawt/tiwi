@@ -1,9 +1,13 @@
 let cnt=-1;
 let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","Ti*rri*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ta*ka*.","mu*wa*ni*_*ka*li*ka*li*_*yi*mi*_*ka*pi*_*ti*ngi*wi*ni*.",
-         "Tin*nga*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_nga*rra*-*rri*nga*ni*.",
-         "Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.","Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*."];
-let engs=["horse runs to stream","green tree snake ran she did to tree/plant.","goanna (kawarri) he ran to the (black) man.","the woman ran she did to his? father.",
-          "dog  arrived she did at stream","then horse run she did to bush "];
+         "Tin*nga*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*nga*rra*-*rri*nga*ni*.",
+         "Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.","Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*.",
+        "Ngi*ya*_*ngi*-*yi*wu*ni*_*yi*wa*pa*_*mu*wa*ni*.", 
+         "Wu*ta*-*yi*pu*nga*_*wa*ya*_*pi*rri*nga*wi*ni*.","Ta*mi*li*_*yi*mi*_*Pa*li*ki*la*_*ka*nga*ta*wa*_*ki*ta*rri*nga*ni*.*"]
+         let engs=["horse runs to stream","green tree snake ran she did to tree/plant.","goanna (kawarri) he ran to the (black) man.","the woman ran she did to his? father.",
+          "dog  arrived she did at stream","then horse run she did to bush ",
+          "My younger brother ate goanna","their older sister has already gone to sleep.","Tamili called Palikila to his female dog."
+         ];
 
 function next1(){
 let test=document.getElementById("echo");
@@ -13,8 +17,8 @@ if(test.innerText===re.innerText){cnt=cnt+1;
  update();}
                                   
 function update(){                                  
-let clean=txt[cnt].replaceAll('*','');
-let re.innerText=clean;
+clean=txt[cnt].replaceAll('*','');
+re.innerText=clean;
 let test=document.getElementById("echo");
 test.innerText="";
 engdiv=document.getElementById("english");
