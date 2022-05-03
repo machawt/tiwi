@@ -1,4 +1,19 @@
 let cnt=-1;
+
+/* const dictionary = [  
+    {"tiwi":"Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.",                             "english":"horse runs to stream",                       "pic":"1.jpg"},
+    {"tiwi":"Ma*rri*_*pi*ka*.",                                                         "english":"Kamunga kalikali jiyimi kapi makatinga?",    "pic":"1.jpg"},           
+    {"tiwi":"Ka*pi*_*ma*ka*ti*nga*.",                                                    "english":"Pika maka kalikali jiyimi?",   "pic":"1.jpg"},         
+    {"tiwi":"Ti*rri*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ta*ka*.",                     "english":"green tree snake ran she did to tree/plant."}, pic":"2.jpg"},
+     {"tiwi":"Ma*rri*_*ti*rri*ka*.",                                                     "english":"Kamunga kalikali jiyimi kapi taka?",        "pic":"2.jpg"},           
+    {"tiwi":"Ka*pi*_*ta*ka*.",                                                          "english":"Tirrara maka kalikali jiyimi?",              "pic":"2.jpg"},        
+    {"tiwi":"Mu*wa*ni*_*ka*li*ka*li*_*yi*mi*_*ka*pi*_*ti*ngi*wi*ni*.",                  "english":"goanna (kawarri) he ran to the (black) man." "pic":"3.jpg"},
+    {"tiwi":"Ma*rri*_*mu*wa*ni*.",                                                       "english":"Kamunga kalikali jiyimi kapi tingiwini?",    "pic":"3.jpg"},           
+    {"tiwi":"Ka*pi*_*ti*nig*wi*ni*.",                                                     "english":"Muwani maka kalikali jiyimi?",             "pic":"3.jpg"}
+    {"tiwi":"Tin*nga*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_nga*rra*-*rri*nga*ni*.",         "english":"the woman ran she did to his? father."},
+    {"tiwi":"Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.",             "english":"dog arrived she did at stream"},
+    {"tiwi":"Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*.",    "english":"then horse run she did to bush"}
+
 let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","Ti*rri*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ta*ka*.","mu*wa*ni*_*ka*li*ka*li*_*yi*mi*_*ka*pi*_*ti*ngi*wi*ni*.",
          "Tin*nga*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*nga*rra*-*rri*nga*ni*.",
          "Pu*la*ngum*wa*ka*_*pa*pi*_*ji*yi*mi*_*ka*pi*_*ma*ka*ti*nga*.","Nin*ki*yi*,*_*pi*ka*_*ka*li*ka*li*_*ji*yi*mi*_*ka*pi*_*ya*wu*rla*ma*.",
@@ -8,7 +23,7 @@ let txt=["Pi*ka*_*ka*li*ka*li*_*ka*pi*_*ma*ka*ti*nga*.","Ti*rri*ka*_*ka*li*ka*li
           "dog  arrived she did at stream","then horse run she did to bush ",
           "My younger brother ate goanna","their older sister has already gone to sleep.","Tamili called Palikila to his female dog."
          ];
-
+*/
 function next1(){
 let test=document.getElementById("echo");
 re= document.getElementById("read");
